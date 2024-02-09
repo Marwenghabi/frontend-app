@@ -1,0 +1,29 @@
+/* Ajoutez ces styles CSS à votre fichier CSS ou à votre composant */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination__link {
+    cursor: pointer;
+    margin: 0 4px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+  }
+  
+  .pagination__link--active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  .pagination__link--disabled {
+    cursor: not-allowed;
+    color: #ccc;
+    border: 1px solid #ccc;
+  }
+  
